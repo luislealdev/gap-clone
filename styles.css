@@ -335,7 +335,7 @@ body {
 .anima-100:hover {
   transform: scale(1.1);
   cursor: pointer;
-  filter: brightness(1.1);
+  /* filter: brightness(1.1); */
 }
 
 .title {
