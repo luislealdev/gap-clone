@@ -329,7 +329,7 @@ body {
 /* Animación imagenes*/
 .anima-100 {
   transition: all 0.3s ease-in-out;
-  width: 90%;
+  width: 100%;
 }
 
 .anima-100:hover {
