@@ -260,22 +260,6 @@ body {
   border: 20px solid transparent;
 }
 
-.main-item {
-  flex: 1;
-  position: relative;
-  background: linear-gradient(to right, #e0e0e0, #f0f0f0);
-  border: 10px solid transparent;
-  /* Bordes transparentes de cierto grosor */
-  border-radius: 20px;
-  /* Añade bordes redondeados */
-  background-clip: padding-box;
-  /* Limita el fondo al área del padding */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
 .lettersytle1 {
   position: absolute;
   top: 75%;
@@ -374,33 +358,17 @@ body {
   position: absolute;
   background: linear-gradient(to right, #e0e0e0, #f0f0f0);
   color: #000000;
-  font-weight: 800;
-  font-size: 80px;
-  padding: 10px 20px;
-  left: 75%;
-  transform: translateX(-50%);
-  z-index: 11;
-}
+  /* font-weight: 800; */
+  font-weight: bolder;
+  font-size: 60px;
+  padding: 10px 50px 10px 10px;
+  right: -50px;
+  top: 50%;
+  /* left: 75%;
+  transform: translateX(-50%); */
+  /* z-index: 11; */
+}x  
 
-.other-item {
-  flex: 1;
-  position: relative;
-  background: linear-gradient(to right, #e0e0e0, #f0f0f0);
-  border: 10px solid transparent;
-  /* Bordes transparentes de cierto grosor */
-  border-radius: 20px;
-  /* Añade bordes redondeados */
-  background-clip: padding-box;
-  /* Limita el fondo al área del padding */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 70%;
-  max-width: 65%;
-  /* Reduce el tamaño de la imagen */
-  height: auto;
-  /* Mantiene la proporción */
-}
 
 .price {
   font-weight: 700;
@@ -457,4 +425,8 @@ body {
   font-size: 14px;
   margin: 20px 0;
   font-size: larger
+}
+
+.gap-80{
+  gap: 80px;
 }
