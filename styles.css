@@ -160,7 +160,7 @@ body {
   }
                         **/
 .cta-button {
-  position: relative;
+  /* position: relative; */
   padding: 15px 40px;
   font-size: 30px;
   font-weight: bold;
@@ -396,24 +396,18 @@ body {
   /* Beige */
 }
 
-.group-buttons {
-  position: relative;
-  bottom: -50px;
-
-}
-
 .background-grey {
   background: linear-gradient(to right, #868686, #f0f0f0);
 }
 
 .details-section {
-  padding: 20px;
+  padding: 80px;
 }
 
 .details-section h1 {
   font-size: 82px;
   font-weight: bold;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .circle-bigger {
