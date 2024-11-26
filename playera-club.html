@@ -92,7 +92,7 @@
           estilo relajado, perfecto para un look casual.
         </p>
         <div>
-          <button class="cta-button">Comprar</button>
+          <button class="cta-button buy-now">Comprar</button>
           <button class="cta-button click-collect">Click & collect</button>
         </div>
       </div>
@@ -106,7 +106,7 @@
     var orderSummary = document.getElementById("orderSummary");
 
     // Get the buttons
-    var buyButton = document.querySelector(".cta-button:not(.click-collect)");
+    var buyButton = document.querySelector(".cta-button:not(.buy-now)");
     var clickCollectButton = document.querySelector(
       ".cta-button.click-collect"
     );
@@ -134,7 +134,6 @@
       orderSummary.style.display = "block";
       startTimer();
       showClickCollectButton();
-      hideBuyButton();
     };
 
     // Timer function
@@ -161,8 +160,8 @@
     }
 
     // Function to hide the "Comprar" button
-    function hideBuyButton() {
-      buyButton.style.display = "none";
-    }
+    // function hideBuyButton() {
+    //   buyButton.style.display = "none";
+    // }
   });
 </script>
